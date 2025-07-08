@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-/* Extra */
-
 ::-webkit-scrollbar {
     width: .5em;
 }
@@ -185,12 +183,12 @@ body{
 
 .textOne {
     font-weight: 600;
-    font-size: 1.25rem; /* 20px */
+    font-size: 1.25rem;
 }
 
 .textTwo {
     font-weight: 600;
-    font-size: 0.875rem; /* 14px */
+    font-size: 0.875rem;
 }
 
 .textOne,
@@ -214,8 +212,6 @@ body{
     opacity: 0.3;
     z-index: 0;
 }
-
-/* ---------- Responsive Design ---------- */
 
 @media (max-width: 1024px) {
     .textOne {
